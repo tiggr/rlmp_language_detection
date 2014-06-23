@@ -32,7 +32,6 @@
  */
 
 
-require_once(PATH_tslib.'class.tslib_pibase.php');
 if(t3lib_extMgm::isLoaded('ml_geoip')) {
 	require_once(t3lib_extMgm::extPath('ml_geoip').'class.tx_mlgeoip.php');
 }
